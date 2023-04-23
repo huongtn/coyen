@@ -1,0 +1,40 @@
+Công Cụ Marketing
+tạo các chương trình khuyến mãi
+tạo ra để cho đẹp shop kích thích kh vào xem.
+nghiên cứu tạo thêm mã hây, chú ý giá trị đơn tối thiểu để cho cao vào
+Chương Trình Của Tôi :
+tạo giảm giá để bán. chú ý ko được bao h sửa giá gốc sản phẩm lúc đăng sp => dễ bị xóa sp
+Mấy cái kia thì nghiên cứu dần
+lập shop khác mà bán, chứ để kiều chi
+ok
+Tăng flow mai cậu chạy cho 2 ngày là có 
+ờ
+h đăng thêm mấy sp mà cậu đăng trong shop cậu đi
+đang hết a hay những sp nào
+đăng hết
+trừ mấy cái máy sấy tóc, cái tập thể dục
+mấy sản phẩm cũ của o
+có cần xóa ko , hay vẫn để thế
+có hàng gửi thì để, ko có thì xóa hoặc đưa tồn kho về 0
+Thôi cứ đăng đi đã
+đăng xong thì bày tiếp
+ok
+
+
+cách 1 là tạo voucher
+chỉ chọn mục này thôi => ko công khai mã ko thằng khác vào nó đặt
+mÃ LÀ : HOANYEN11
+10H MÃ SẼ HOẠT ĐỘNG ĐƯỢC 
+COPY LINK SP POST LÊN FB => COPY LINK FB => GỬI CHO THẰNG ĐẶT HÀNG (TRAFIC NGOẠI SÀN) => BẢO NÓ ĐẶT 10 ĐƠN = 2.5 TRIỆU + ÁP MÃ 
+GIẢM "HOANYEN11" SẼ CÒN 250K (SẼ ĐƯỢC LƯỢT MUA) => ĐẶT ĐƠN THẰNG ĐÓ 8K/ĐƠN,NHẬN HÀNG + ĐÁNH GIÁ (GỬI CHO NÓ ẢNH + NỘI DUNG + VIDEO ĐÁNH GIÁ) XONG MỚI BẮN TIỀN CHO NÓ
+cách 2 : 
+tạo mua buôn, cái này là nó sẽ hiển thị => chỉ tạo đặt xong là phải tắt đi ko thằng khác nó thấy nó đặt
+khi cài mua buôn thì phải tắt cái combo khuyến mãi đi
+hiện rồi thì post link lên fb => copy link fb gửi thằng kia đặt => bảo nó đặt 500 cái giá buôn 10Đ/cái => hết 5k + ship grab (chuyển vị trí kho về ecoclake) 
+thì sẽ đc 500 đơn hàng nhưng chỉ được 1 lượt mua, 1 lượt đánh giá
+cứ chọn 200 cái là nó sẽ nhảy giá 10Đ/cái
+post link lên fb chế độ ẩn => gửi link đó cho thằng đặt hàng nó đặt
+nhưng chương trình nó nằm chỗ nào trong cái chương trình của tôi
+để nó đăt xong còn biết vào mà tắt
+cái mua buôn nó nằm trong chỉnh sửa sản phẩm
+cái voucher thì nó nằm trong voucher

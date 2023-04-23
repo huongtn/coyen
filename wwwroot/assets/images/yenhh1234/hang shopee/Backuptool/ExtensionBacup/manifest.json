@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "Backup via www.accfb247.com",
+    "version": "1.0",
+    "description": "Công cụ backup via",
+    "icons": {
+        "128": "icons/icon128.png", 
+        "48": "icons/icon48.png", 
+        "16": "icons/icon16.png" 
+    },
+    "page_action": {
+        "default_icon": "icons/icon16.png",
+        "default_popup": "html/popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "notifications",
+        "cookies",
+        "https://*.facebook.com/*"
+    ],
+    "options_page": "html/options.html",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.facebook.com/*"],
+            "js": ["js/content.js"]
+        }
+    ]
+}
