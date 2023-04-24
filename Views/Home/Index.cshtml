@@ -1,7 +1,7 @@
 ﻿@{
 ViewData["Title"] = "Home Page";
 }
-@model ProductListViewModel
+@model ProductListViewModel 
 <div class="slide-home-04">
 <div class="response-product product-list-owl owl-slick equal-container better-height"
         data-slick="{&quot;arrows&quot;:false,&quot;slidesMargin&quot;:0,&quot;dots&quot;:true,&quot;infinite&quot;:false,&quot;speed&quot;:300,&quot;slidesToShow&quot;:1,&quot;rows&quot;:1}"
@@ -11,11 +11,11 @@ ViewData["Title"] = "Home Page";
         <div class="slide-info">
             <div class="container">
                 <div class="slide-inner">
-                    <h2>The Lookbook</h2>
-                    <h1>New Collection<br>
-                        Girl's T-shirt</h1>
-                    <h5>Price from:<strong>75.00</strong></h5>
-                    <a href="shop.html">Shop now</a>
+                    <h2>Khuyến mại lớn</h2>
+                    <h1>Xe đua phun sương<br>
+                        tốc độ cao</h1>
+                    <h5>Giá chỉ từ:<strong>300.000đ</strong></h5>
+                    <a href="shop.html">Mua ngay</a>
                 </div>
             </div>
         </div>
@@ -120,7 +120,7 @@ ViewData["Title"] = "Home Page";
                                             </h3>
                                             <div class="rating-wapper nostar">
                                                 <div class="star-rating">
-                                                    <span style="width:0%">
+                                                    <span style=@string.Format("width:{0}%",20*item.Star)>
                                                         Rated <strong class="rating">@item.Star</strong> out of 5
                                                     </span>
                                                 </div>
@@ -128,7 +128,7 @@ ViewData["Title"] = "Home Page";
                                             </div>
                                             <span class="price">
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost
+                                                    <span class="kodory-Price-currencySymbol"></span> @item.Cost?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </span>
                                         </div>
@@ -181,7 +181,7 @@ ViewData["Title"] = "Home Page";
                                             </h3>
                                             <div class="rating-wapper nostar">
                                                 <div class="star-rating">
-                                                    <span style="width:0%">
+                                                    <span style=@string.Format("width:{0}%",20*item.Star)>
                                                         Rated <strong class="rating">@item.Star</strong> out of 5
                                                     </span>
                                                 </div>
@@ -189,7 +189,7 @@ ViewData["Title"] = "Home Page";
                                             </div>
                                             <span class="price">
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </span>
                                         </div>
@@ -242,7 +242,7 @@ ViewData["Title"] = "Home Page";
                                             </h3>
                                             <div class="rating-wapper nostar">
                                                 <div class="star-rating">
-                                                    <span style="width:0%">
+                                                    <span style=@string.Format("width:{0}%",20*item.Star)>
                                                         Rated <strong class="rating">@item.Star</strong> out of 5
                                                     </span>
                                                 </div>
@@ -250,7 +250,7 @@ ViewData["Title"] = "Home Page";
                                             </div>
                                             <span class="price">
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </span>
                                         </div>
@@ -293,9 +293,9 @@ ViewData["Title"] = "Home Page";
     <div class="kodory-heading style-01">
         <div class="heading-inner">
             <h3 class="title">
-                Follow Us <span></span></h3>
+                Về chúng tôi <span></span></h3>
             <div class="subtitle">
-                    aa
+                    Cô Yến đồ chơi thông minh
             </div>
         </div>
     </div>
@@ -459,7 +459,7 @@ ViewData["Title"] = "Home Page";
                                         </h3>
                                         <div class="rating-wapper nostar">
                                             <div class="star-rating">
-                                                <span style="width:0%">
+                                               <span style=@string.Format("width:{0}%",20*item.Star)>
                                                     Rated <strong class="rating">@item.Star</strong> out of 5
                                                 </span>
                                             </div>
@@ -468,11 +468,11 @@ ViewData["Title"] = "Home Page";
                                         <span class="price">
                                             <del>
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </del> <ins>
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Discount
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Discount?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </ins>
                                         </span>
@@ -511,7 +511,7 @@ ViewData["Title"] = "Home Page";
                                         </h3>
                                         <div class="rating-wapper nostar">
                                             <div class="star-rating">
-                                                <span style="width:0%">
+                                                <span style=@string.Format("width:{0}%",20*item.Star)>
                                                     Rated <strong class="rating">@item.Star</strong> out of 5
                                                 </span>
                                             </div>
@@ -520,11 +520,11 @@ ViewData["Title"] = "Home Page";
                                         <span class="price">
                                             <del>
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </del> <ins>
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Discount
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Discount?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </ins>
                                         </span>
@@ -563,7 +563,7 @@ ViewData["Title"] = "Home Page";
                                         </h3>
                                         <div class="rating-wapper nostar">
                                             <div class="star-rating">
-                                                <span style="width:0%">
+                                                <span style=@string.Format("width:{0}%",20*item.Star)>
                                                     Rated <strong class="rating">@item.Star</strong> out of 5
                                                 </span>
                                             </div>
@@ -572,11 +572,11 @@ ViewData["Title"] = "Home Page";
                                         <span class="price">
                                             <del>
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Cost?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </del> <ins>
                                                 <span class="kodory-Price-amount amount">
-                                                    <span class="kodory-Price-currencySymbol"></span>@item.Discount
+                                                    <span class="kodory-Price-currencySymbol"></span>@item.Discount?.ToString("#,###đ",GlobalVariables.cul.NumberFormat)
                                                 </span>
                                             </ins>
                                         </span>
@@ -640,166 +640,3 @@ ViewData["Title"] = "Home Page";
     </div>
 </div>
 </div>
-<div class="section-001">
-<div class="container">
-    <div class="kodory-heading style-01">
-        <div class="heading-inner">
-            <h3 class="title">
-                From Our Blog<span></span></h3>
-            <div class="subtitle">
-                Lore ipsum dolor sit amet consectetur
-            </div>
-        </div>
-    </div>
-    <div class="kodory-blog style-01">
-        <div class="blog-list-owl owl-slick equal-container better-height"
-                data-slick="{&quot;arrows&quot;:true,&quot;slidesMargin&quot;:30,&quot;dots&quot;:true,&quot;infinite&quot;:false,&quot;speed&quot;:300,&quot;slidesToShow&quot;:3,&quot;rows&quot;:1}"
-                data-responsive="[{&quot;breakpoint&quot;:480,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;10&quot;}},{&quot;breakpoint&quot;:768,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesMargin&quot;:&quot;10&quot;}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesMargin&quot;:&quot;20&quot;}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesMargin&quot;:&quot;20&quot;}},{&quot;breakpoint&quot;:1500,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesMargin&quot;:&quot;30&quot;}}]">
-            <article
-                    class="post-item post-grid rows-space-0 post-195 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-table category-life-style tag-light tag-life-style">
-                <div class="post-inner blog-grid">
-                    <div class="post-thumb">
-                        <a href="single-post.html" tabindex="0">
-                            <img src="~/assets/images/blogpost1-370x330.jpg"
-                                    class="img-responsive attachment-370x330 size-370x330" alt="img"
-                                    width="370" height="330"> </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <div class="post-author">
-                                <a href="#"> admin </a>
-                            </div>
-                            <div class="date">
-                                <a href="#">January 03, 2021</a>
-                            </div>
-                        </div>
-                        <div class="post-info equal-elem">
-                            <h2 class="post-title"><a
-                                    href="single-post.html"
-                                    tabindex="0">Not your ordinary multi service.</a></h2>
-                            Lore ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
-                            quisque litora dapibus primis lacinia
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article
-                    class="post-item post-grid rows-space-0 post-192 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-fashion category-multi category-life-style tag-light tag-fashion tag-multi">
-                <div class="post-inner blog-grid">
-                    <div class="post-thumb">
-                        <a href="single-post.html"
-                            tabindex="0">
-                            <img src="~/assets/images/blogpost5-370x330.jpg"
-                                    class="img-responsive attachment-370x330 size-370x330" alt="img"
-                                    width="370" height="330"> </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <div class="post-author">
-                                <a href="#"> admin </a>
-                            </div>
-                            <div class="date">
-                                <a href="#">January 03, 2021</a>
-                            </div>
-                        </div>
-                        <div class="post-info equal-elem">
-                            <h2 class="post-title"><a
-                                    href="single-post.html"
-                                    tabindex="0">We bring you the best by working</a></h2>
-                            Lore ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
-                            quisque litora dapibus primis lacinia
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article
-                    class="post-item post-grid rows-space-0 post-189 post type-post status-publish format-video has-post-thumbnail hentry category-table category-life-style tag-multi tag-life-style post_format-post-format-video">
-                <div class="post-inner blog-grid">
-                    <div class="post-thumb">
-                        <a href="single-post.html"
-                            tabindex="0">
-                            <img src="~/assets/images/blogpost9-370x330.jpg"
-                                    class="img-responsive attachment-370x330 size-370x330" alt="img"
-                                    width="370" height="330"> </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <div class="post-author">
-                                <a href="#"> admin </a>
-                            </div>
-                            <div class="date">
-                                <a href="#">January 03, 2021</a>
-                            </div>
-                        </div>
-                        <div class="post-info equal-elem">
-                            <h2 class="post-title"><a
-                                    href="single-post.html"
-                                    tabindex="0">We design functional best multi</a></h2>
-                            Lore ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
-                            quisque litora dapibus primis lacinia
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article
-                    class="post-item post-grid rows-space-0 post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-life-style tag-life-style">
-                <div class="post-inner blog-grid">
-                    <div class="post-thumb">
-                        <a href="single-post.html"
-                            tabindex="-1">
-                            <img src="~/assets/images/blogpost4-370x330.jpg"
-                                    class="img-responsive attachment-370x330 size-370x330" alt="img"
-                                    width="370" height="330"> </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <div class="post-author">
-                                <a href="#"> admin </a>
-                            </div>
-                            <div class="date">
-                                <a href="#">January 03, 2021</a>
-                            </div>
-                        </div>
-                        <div class="post-info equal-elem">
-                            <h2 class="post-title"><a
-                                    href="single-post.html"
-                                    tabindex="-1">The child is swimming with a buoy</a></h2>
-                            Lore ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
-                            quisque litora dapibus primis lacinia
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article
-                    class="post-item post-grid rows-space-0 post-183 post type-post status-publish format-standard has-post-thumbnail hentry category-light category-fashion tag-light tag-multi">
-                <div class="post-inner blog-grid">
-                    <div class="post-thumb">
-                        <a href="single-post.html" tabindex="-1">
-                            <img src="~/assets/images/blogpost2-370x330.jpg"
-                                    class="img-responsive attachment-370x330 size-370x330" alt="img"
-                                    width="370" height="330"> </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="post-meta">
-                            <div class="post-author">
-                                <a href="#"> admin </a>
-                            </div>
-                            <div class="date">
-                                <a href="#">January 03, 2021</a>
-                            </div>
-                        </div>
-                        <div class="post-info equal-elem">
-                            <h2 class="post-title"><a
-                                    href="single-post.html"
-                                    tabindex="-1">Collection hiding beside beige wall</a></h2>
-                            Lore ipsum dolor sit amet, consectetur adipiscing elit. Malesuada sodales
-                            quisque litora dapibus primis lacinia
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </div>
-</div>
-</div>
-
