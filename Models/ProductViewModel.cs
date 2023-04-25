@@ -39,4 +39,10 @@ namespace DoChoiThongMinh.Models
             Star = (int)p.Star;
         }
     }
+
+    public class CartViewModel
+    {
+        public Product Product { set; get; }
+        public int Qty { set; get; }
+    }
 }

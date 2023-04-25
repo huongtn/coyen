@@ -32,8 +32,8 @@ namespace DoChoiThongMinh.Controllers
                     topStars = topStars,
                     topSells = topSells,
                     news = news
-                };
-                //List<ProductViewModel> products = new List<ProductViewModel>();
+                }; 
+                //ISession["Cart"] = new List<CartViewModel>();
                 return View(productListViewModel);
             }
           
