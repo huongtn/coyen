@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DNNHKjv/H5Mam/uZWNIuJ5LfhsAff/GE5C0OuhcJcpQ=",
+  "Hash": "+Bms1e+XxOZob2GtOQTDjvtrmnOIdnjAstZ43qxbRBw=",
   "Source": "DoChoiThongMinh",
   "BasePath": "_content/DoChoiThongMinh",
   "Mode": "Default",
@@ -5848,6 +5848,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\fans\\image_8.jpg"
     },
     {
+      "Identity": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\assets\\images\\icon_zalomessage.png",
+      "SourceId": "DoChoiThongMinh",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\",
+      "BasePath": "_content/DoChoiThongMinh",
+      "RelativePath": "assets/images/icon_zalomessage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\icon_zalomessage.png"
+    },
+    {
       "Identity": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\assets\\images\\robot\\1.jpg",
       "SourceId": "DoChoiThongMinh",
       "SourceType": "Discovered",
@@ -6067,6 +6084,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\robot\\z4147288954747_4e54555bd60b347231c4cf4cc87a3d48.jpg"
+    },
+    {
+      "Identity": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\assets\\images\\tiktok.jpg",
+      "SourceId": "DoChoiThongMinh",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\",
+      "BasePath": "_content/DoChoiThongMinh",
+      "RelativePath": "assets/images/tiktok.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tiktok.jpg"
     },
     {
       "Identity": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\assets\\images\\yenhh1234\\bàn chải điện\\Bàn chải điện tự động đánh răng cho bé giúp bé yêu thích việc đánh răng\\image_1.jpg",

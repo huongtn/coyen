@@ -21,7 +21,7 @@ namespace DoChoiThongMinh.Controllers
                 var camps = db.Products.Where(x => x.Categories == "Lều").ToList();
                 var others = db.Products.Where(x => x.Categories == "Khác").ToList();
                 var topStars = db.Products.Where(x => x.Star>=4).ToList();
-                var topSells = db.Products.Where(x => x.IsTopSell ==true).ToList();
+                var topSells = db.Products.Where(x => x.Discount>0 && x.Discount<x.Cost).ToList();
                 var news = db.Products.Where(x => x.IsNew == true).ToList();
                 //var categories = db.Categories.ToList();
                 ProductListViewModel productListViewModel = new ProductListViewModel()
