@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Bms1e+XxOZob2GtOQTDjvtrmnOIdnjAstZ43qxbRBw=",
+  "Hash": "4vnhqR+ywF/JAWk4sF70eoT0a0D/R1GPE5FqbYQgo5c=",
   "Source": "DoChoiThongMinh",
   "BasePath": "_content/DoChoiThongMinh",
   "Mode": "Default",
@@ -6084,6 +6084,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\robot\\z4147288954747_4e54555bd60b347231c4cf4cc87a3d48.jpg"
+    },
+    {
+      "Identity": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\assets\\images\\slide44.jpg",
+      "SourceId": "DoChoiThongMinh",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\",
+      "BasePath": "_content/DoChoiThongMinh",
+      "RelativePath": "assets/images/slide44.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slide44.jpg"
     },
     {
       "Identity": "E:\\Kelvin\\CoYen\\DoChoiThongMinh\\wwwroot\\assets\\images\\tiktok.jpg",
