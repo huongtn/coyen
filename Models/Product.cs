@@ -30,4 +30,10 @@ public partial class Product
     public string? Color { get; set; }
 
     public int? Qty { get; set; }
+
+
+    public string? Image1000x1000 { get; set; }
+    public string? Images100x100 { get; set; }
+    public string? Image1920x940 { get; set; }
+    public bool? Top3 { get; set; }
 }

@@ -10,6 +10,7 @@ namespace DoChoiThongMinh.Models
         public List<Product> rcs { get; set; }
         public List<Product> camps { get; set; }
         public List<Product> others { get; set; }
+        public List<Product> top3s { get; set; }
     }
 
     public class ProductViewModel
